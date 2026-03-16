@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.line-one, .line-two {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+
+.flash {
+    background-color: white;
+}
